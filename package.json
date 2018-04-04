@@ -1,0 +1,695 @@
+{
+  "name": "vscode-auto-schema",
+  "displayName": "auto-schema",
+  "description": "Support most of JSON Schemas you ever see",
+  "version": "0.0.1",
+  "publisher": "axetroy",
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axetroy/vscode-auto-schema.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axetroy/vscode-auto-schema/issues"
+  },
+  "homepage": "https://github.com/axetroy/vscode-auto-schema#readme",
+  "keywords": [
+    "schema",
+    "json",
+    "vscode",
+    "extension"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "icon": "resources/icon.png",
+  "main": "./out/extension",
+  "activationEvents": [
+    "workspaceContains:.angular-cli.json",
+    "workspaceContains:angular-cli.json",
+    "workspaceContains:apple-app-site-association",
+    "workspaceContains:appsettings.json",
+    "workspaceContains:appsettings.*.json",
+    "workspaceContains:appveyor.yml",
+    "workspaceContains:*.asmdef",
+    "workspaceContains:.babelrc",
+    "workspaceContains:.bootstraprc",
+    "workspaceContains:bower.json",
+    "workspaceContains:.bower.json",
+    "workspaceContains:.bowerrc",
+    "workspaceContains:bundleconfig.json",
+    "workspaceContains:.circleci/config.yml",
+    "workspaceContains:compilerconfig.json",
+    "workspaceContains:commands.json",
+    "workspaceContains:chutzpah.json",
+    "workspaceContains:contentmanifest.json",
+    "workspaceContains:*.cf.json",
+    "workspaceContains:*.cf.yml",
+    "workspaceContains:*.cf.yaml",
+    "workspaceContains:cloudformation.json",
+    "workspaceContains:cloudformation.yml",
+    "workspaceContains:cloudformation.yaml",
+    "workspaceContains:*.sam.json",
+    "workspaceContains:*.sam.yml",
+    "workspaceContains:*.sam.yaml",
+    "workspaceContains:sam.json",
+    "workspaceContains:sam.yml",
+    "workspaceContains:sam.yaml",
+    "workspaceContains:coffeelint.json",
+    "workspaceContains:composer.json",
+    "workspaceContains:component.json",
+    "workspaceContains:config.json",
+    "workspaceContains:contribute.json",
+    "workspaceContains:cypress.json",
+    "workspaceContains:.creatomic",
+    "workspaceContains:.csscomb.json",
+    "workspaceContains:.csslintrc",
+    "workspaceContains:debugsettings.json",
+    "workspaceContains:docfx.json",
+    "workspaceContains:dotnetcli.host.json",
+    "workspaceContains:epr-manifest.json",
+    "workspaceContains:.eslintrc",
+    "workspaceContains:.eslintrc.json",
+    "workspaceContains:function.json",
+    "workspaceContains:global.json",
+    "workspaceContains:copy.json",
+    "workspaceContains:clean.json",
+    "workspaceContains:cssmin.json",
+    "workspaceContains:jshint.json",
+    "workspaceContains:watch.json",
+    "workspaceContains:grunt/*.json",
+    "workspaceContains:*-tasks.json",
+    "workspaceContains:haxelib.json",
+    "workspaceContains:host.json",
+    "workspaceContains:host-meta.json",
+    "workspaceContains:.htmlhintrc",
+    "workspaceContains:imageoptimizer.json",
+    "workspaceContains:.jsbeautifyrc",
+    "workspaceContains:.jsbeautifyrc",
+    "workspaceContains:.jscsrc",
+    "workspaceContains:jscsrc.json",
+    "workspaceContains:.jshintrc",
+    "workspaceContains:.jsinspectrc",
+    "workspaceContains:*.schema.json",
+    "workspaceContains:feed.json",
+    "workspaceContains:*.jsonld",
+    "workspaceContains:*.patch",
+    "workspaceContains:jsconfig.json",
+    "workspaceContains:launchsettings.json",
+    "workspaceContains:libman.json",
+    "workspaceContains:*.lsdl.yaml",
+    "workspaceContains:mimetypes.json",
+    "workspaceContains:.modernizrrc",
+    "workspaceContains:mycode.json",
+    "workspaceContains:ninjs.json",
+    "workspaceContains:package.json",
+    "workspaceContains:package.manifest",
+    "workspaceContains:pattern.json",
+    "workspaceContains:.prettierrc",
+    "workspaceContains:.prettierrc.json",
+    "workspaceContains:prisma.yml",
+    "workspaceContains:project.json",
+    "workspaceContains:proxies.json",
+    "workspaceContains:*.resjson",
+    "workspaceContains:resume.json",
+    "workspaceContains:*.sarif",
+    "workspaceContains:*.sarif.json",
+    "workspaceContains:settings.job",
+    "workspaceContains:skyuxconfig.json",
+    "workspaceContains:skyuxconfig.*.json",
+    "workspaceContains:.solidarity",
+    "workspaceContains:.solidarity.json",
+    "workspaceContains:*.map",
+    "workspaceContains:*.sprite",
+    "workspaceContains:stylecop.json",
+    "workspaceContains:.stylelintrc",
+    "workspaceContains:stylelintrc.json",
+    "workspaceContains:.stylelintrc.json",
+    "workspaceContains:swagger.json",
+    "workspaceContains:.template.config/template.json",
+    "workspaceContains:templatesources.json",
+    "workspaceContains:.travis.yml",
+    "workspaceContains:tsconfig.json",
+    "workspaceContains:tsd.json",
+    "workspaceContains:.tsdrc",
+    "workspaceContains:tslint.json",
+    "workspaceContains:typings.json",
+    "workspaceContains:.typingsrc",
+    "workspaceContains:up.json",
+    "workspaceContains:.manifest",
+    "workspaceContains:*.vg",
+    "workspaceContains:*.vg.json",
+    "workspaceContains:*.vl",
+    "workspaceContains:*.vl.json",
+    "workspaceContains:version.json",
+    "workspaceContains:vs-2017.3.host.json",
+    "workspaceContains:*.nesting.json",
+    "workspaceContains:*.vsext",
+    "workspaceContains:manifest.json",
+    "workspaceContains:*.webmanifest",
+    "workspaceContains:webjobs-list.json",
+    "workspaceContains:webjobpublishsettings.json",
+    "workspaceContains:*.ckan",
+    "workspaceContains:xunit.runner.json",
+    "workspaceContains:*.cryproj"
+  ],
+  "contributes": {
+    "jsonValidation": [
+      {
+        "fileMatch": ".angular-cli.json",
+        "url": "https://raw.githubusercontent.com/angular/angular-cli/master/packages/@angular/cli/lib/config/schema.json"
+      },
+      {
+        "fileMatch": "angular-cli.json",
+        "url": "https://raw.githubusercontent.com/angular/angular-cli/master/packages/@angular/cli/lib/config/schema.json"
+      },
+      {
+        "fileMatch": "apple-app-site-association",
+        "url": "http://json.schemastore.org/apple-app-site-association"
+      },
+      {
+        "fileMatch": "appsettings.json",
+        "url": "http://json.schemastore.org/appsettings"
+      },
+      {
+        "fileMatch": "appsettings.*.json",
+        "url": "http://json.schemastore.org/appsettings"
+      },
+      {
+        "fileMatch": "appveyor.yml",
+        "url": "http://json.schemastore.org/appveyor"
+      },
+      {
+        "fileMatch": "*.asmdef",
+        "url": "http://json.schemastore.org/asmdef"
+      },
+      {
+        "fileMatch": ".babelrc",
+        "url": "http://json.schemastore.org/babelrc"
+      },
+      {
+        "fileMatch": ".bootstraprc",
+        "url": "http://json.schemastore.org/bootstraprc"
+      },
+      {
+        "fileMatch": "bower.json",
+        "url": "http://json.schemastore.org/bower"
+      },
+      {
+        "fileMatch": ".bower.json",
+        "url": "http://json.schemastore.org/bower"
+      },
+      {
+        "fileMatch": ".bowerrc",
+        "url": "http://json.schemastore.org/bowerrc"
+      },
+      {
+        "fileMatch": "bundleconfig.json",
+        "url": "http://json.schemastore.org/bundleconfig"
+      },
+      {
+        "fileMatch": ".circleci/config.yml",
+        "url": "http://json.schemastore.org/circleciconfig"
+      },
+      {
+        "fileMatch": "compilerconfig.json",
+        "url": "http://json.schemastore.org/compilerconfig"
+      },
+      {
+        "fileMatch": "commands.json",
+        "url": "http://json.schemastore.org/commands"
+      },
+      {
+        "fileMatch": "chutzpah.json",
+        "url": "http://json.schemastore.org/chutzpah"
+      },
+      {
+        "fileMatch": "contentmanifest.json",
+        "url": "http://json.schemastore.org/vsix-manifestinjection"
+      },
+      {
+        "fileMatch": "*.cf.json",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
+      },
+      {
+        "fileMatch": "*.cf.yml",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
+      },
+      {
+        "fileMatch": "*.cf.yaml",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
+      },
+      {
+        "fileMatch": "cloudformation.json",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
+      },
+      {
+        "fileMatch": "cloudformation.yml",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
+      },
+      {
+        "fileMatch": "cloudformation.yaml",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
+      },
+      {
+        "fileMatch": "*.sam.json",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
+      },
+      {
+        "fileMatch": "*.sam.yml",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
+      },
+      {
+        "fileMatch": "*.sam.yaml",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
+      },
+      {
+        "fileMatch": "sam.json",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
+      },
+      {
+        "fileMatch": "sam.yml",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
+      },
+      {
+        "fileMatch": "sam.yaml",
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
+      },
+      {
+        "fileMatch": "coffeelint.json",
+        "url": "http://json.schemastore.org/coffeelint"
+      },
+      {
+        "fileMatch": "composer.json",
+        "url": "http://json.schemastore.org/composer"
+      },
+      {
+        "fileMatch": "component.json",
+        "url": "http://json.schemastore.org/component"
+      },
+      {
+        "fileMatch": "config.json",
+        "url": "http://json.schemastore.org/config"
+      },
+      {
+        "fileMatch": "contribute.json",
+        "url": "http://json.schemastore.org/contribute"
+      },
+      {
+        "fileMatch": "cypress.json",
+        "url": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json"
+      },
+      {
+        "fileMatch": ".creatomic",
+        "url": "http://json.schemastore.org/creatomic"
+      },
+      {
+        "fileMatch": ".csscomb.json",
+        "url": "http://json.schemastore.org/csscomb"
+      },
+      {
+        "fileMatch": ".csslintrc",
+        "url": "http://json.schemastore.org/csslintrc"
+      },
+      {
+        "fileMatch": "debugsettings.json",
+        "url": "http://json.schemastore.org/launchsettings"
+      },
+      {
+        "fileMatch": "docfx.json",
+        "url": "http://json.schemastore.org/docfx"
+      },
+      {
+        "fileMatch": "dotnetcli.host.json",
+        "url": "http://json.schemastore.org/dotnetcli.host"
+      },
+      {
+        "fileMatch": "epr-manifest.json",
+        "url": "http://json.schemastore.org/epr-manifest"
+      },
+      {
+        "fileMatch": ".eslintrc",
+        "url": "http://json.schemastore.org/eslintrc"
+      },
+      {
+        "fileMatch": ".eslintrc.json",
+        "url": "http://json.schemastore.org/eslintrc"
+      },
+      {
+        "fileMatch": "function.json",
+        "url": "http://json.schemastore.org/function"
+      },
+      {
+        "fileMatch": "global.json",
+        "url": "http://json.schemastore.org/global"
+      },
+      {
+        "fileMatch": "copy.json",
+        "url": "http://json.schemastore.org/grunt-copy-task"
+      },
+      {
+        "fileMatch": "clean.json",
+        "url": "http://json.schemastore.org/grunt-clean-task"
+      },
+      {
+        "fileMatch": "cssmin.json",
+        "url": "http://json.schemastore.org/grunt-cssmin-task"
+      },
+      {
+        "fileMatch": "jshint.json",
+        "url": "http://json.schemastore.org/grunt-jshint-task"
+      },
+      {
+        "fileMatch": "watch.json",
+        "url": "http://json.schemastore.org/grunt-watch-task"
+      },
+      {
+        "fileMatch": "grunt/*.json",
+        "url": "http://json.schemastore.org/grunt-task"
+      },
+      {
+        "fileMatch": "*-tasks.json",
+        "url": "http://json.schemastore.org/grunt-task"
+      },
+      {
+        "fileMatch": "haxelib.json",
+        "url": "http://json.schemastore.org/haxelib"
+      },
+      {
+        "fileMatch": "host.json",
+        "url": "http://json.schemastore.org/host"
+      },
+      {
+        "fileMatch": "host-meta.json",
+        "url": "http://json.schemastore.org/host-meta"
+      },
+      {
+        "fileMatch": ".htmlhintrc",
+        "url": "http://json.schemastore.org/htmlhint"
+      },
+      {
+        "fileMatch": "imageoptimizer.json",
+        "url": "http://json.schemastore.org/imageoptimizer"
+      },
+      {
+        "fileMatch": ".jsbeautifyrc",
+        "url": "http://json.schemastore.org/jsbeautifyrc"
+      },
+      {
+        "fileMatch": ".jsbeautifyrc",
+        "url": "http://json.schemastore.org/jsbeautifyrc-nested"
+      },
+      {
+        "fileMatch": ".jscsrc",
+        "url": "http://json.schemastore.org/jscsrc"
+      },
+      {
+        "fileMatch": "jscsrc.json",
+        "url": "http://json.schemastore.org/jscsrc"
+      },
+      {
+        "fileMatch": ".jshintrc",
+        "url": "http://json.schemastore.org/jshintrc"
+      },
+      {
+        "fileMatch": ".jsinspectrc",
+        "url": "http://json.schemastore.org/jsinspectrc"
+      },
+      {
+        "fileMatch": "*.schema.json",
+        "url": "http://jsonapi.org/schema"
+      },
+      {
+        "fileMatch": "feed.json",
+        "url": "http://json.schemastore.org/feed"
+      },
+      {
+        "fileMatch": "*.jsonld",
+        "url": "http://json.schemastore.org/jsonld"
+      },
+      {
+        "fileMatch": "*.patch",
+        "url": "http://json.schemastore.org/json-patch"
+      },
+      {
+        "fileMatch": "jsconfig.json",
+        "url": "http://json.schemastore.org/jsconfig"
+      },
+      {
+        "fileMatch": "launchsettings.json",
+        "url": "http://json.schemastore.org/launchsettings"
+      },
+      {
+        "fileMatch": "libman.json",
+        "url": "http://json.schemastore.org/libman"
+      },
+      {
+        "fileMatch": "*.lsdl.yaml",
+        "url": "http://json.schemastore.org/lsdlschema"
+      },
+      {
+        "fileMatch": "mimetypes.json",
+        "url": "http://json.schemastore.org/mimetypes"
+      },
+      {
+        "fileMatch": ".modernizrrc",
+        "url": "http://json.schemastore.org/modernizrrc"
+      },
+      {
+        "fileMatch": "mycode.json",
+        "url": "http://json.schemastore.org/mycode"
+      },
+      {
+        "fileMatch": "ninjs.json",
+        "url": "http://json.schemastore.org/ninjs"
+      },
+      {
+        "fileMatch": "package.json",
+        "url": "http://json.schemastore.org/package"
+      },
+      {
+        "fileMatch": "package.manifest",
+        "url": "http://json.schemastore.org/package.manifest"
+      },
+      {
+        "fileMatch": "pattern.json",
+        "url": "http://json.schemastore.org/pattern"
+      },
+      {
+        "fileMatch": ".prettierrc",
+        "url": "http://json.schemastore.org/prettierrc"
+      },
+      {
+        "fileMatch": ".prettierrc.json",
+        "url": "http://json.schemastore.org/prettierrc"
+      },
+      {
+        "fileMatch": "prisma.yml",
+        "url": "http://json.schemastore.org/prisma"
+      },
+      {
+        "fileMatch": "project.json",
+        "url": "http://json.schemastore.org/project"
+      },
+      {
+        "fileMatch": "proxies.json",
+        "url": "http://json.schemastore.org/proxies"
+      },
+      {
+        "fileMatch": "*.resjson",
+        "url": "http://json.schemastore.org/resjson"
+      },
+      {
+        "fileMatch": "resume.json",
+        "url": "http://json.schemastore.org/resume"
+      },
+      {
+        "fileMatch": "*.sarif",
+        "url": "http://json.schemastore.org/sarif"
+      },
+      {
+        "fileMatch": "*.sarif.json",
+        "url": "http://json.schemastore.org/sarif"
+      },
+      {
+        "fileMatch": "settings.job",
+        "url": "http://json.schemastore.org/settings.job"
+      },
+      {
+        "fileMatch": "skyuxconfig.json",
+        "url": "https://raw.githubusercontent.com/blackbaud/skyux-builder/master/skyuxconfig-schema.json"
+      },
+      {
+        "fileMatch": "skyuxconfig.*.json",
+        "url": "https://raw.githubusercontent.com/blackbaud/skyux-builder/master/skyuxconfig-schema.json"
+      },
+      {
+        "fileMatch": ".solidarity",
+        "url": "http://json.schemastore.org/solidaritySchema"
+      },
+      {
+        "fileMatch": ".solidarity.json",
+        "url": "http://json.schemastore.org/solidaritySchema"
+      },
+      {
+        "fileMatch": "*.map",
+        "url": "http://json.schemastore.org/sourcemap-v3"
+      },
+      {
+        "fileMatch": "*.sprite",
+        "url": "http://json.schemastore.org/sprite"
+      },
+      {
+        "fileMatch": "stylecop.json",
+        "url": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json"
+      },
+      {
+        "fileMatch": ".stylelintrc",
+        "url": "http://json.schemastore.org/stylelintrc"
+      },
+      {
+        "fileMatch": "stylelintrc.json",
+        "url": "http://json.schemastore.org/stylelintrc"
+      },
+      {
+        "fileMatch": ".stylelintrc.json",
+        "url": "http://json.schemastore.org/stylelintrc"
+      },
+      {
+        "fileMatch": "swagger.json",
+        "url": "http://json.schemastore.org/swagger-2.0"
+      },
+      {
+        "fileMatch": ".template.config/template.json",
+        "url": "http://json.schemastore.org/template"
+      },
+      {
+        "fileMatch": "templatesources.json",
+        "url": "http://json.schemastore.org/templatesources"
+      },
+      {
+        "fileMatch": ".travis.yml",
+        "url": "http://json.schemastore.org/travis"
+      },
+      {
+        "fileMatch": "tsconfig.json",
+        "url": "http://json.schemastore.org/tsconfig"
+      },
+      {
+        "fileMatch": "tsd.json",
+        "url": "http://json.schemastore.org/tsd"
+      },
+      {
+        "fileMatch": ".tsdrc",
+        "url": "http://json.schemastore.org/tsdrc"
+      },
+      {
+        "fileMatch": "tslint.json",
+        "url": "http://json.schemastore.org/tslint"
+      },
+      {
+        "fileMatch": "typings.json",
+        "url": "http://json.schemastore.org/typings"
+      },
+      {
+        "fileMatch": ".typingsrc",
+        "url": "http://json.schemastore.org/typingsrc"
+      },
+      {
+        "fileMatch": "up.json",
+        "url": "http://json.schemastore.org/up.json"
+      },
+      {
+        "fileMatch": ".manifest",
+        "url": "http://json.schemastore.org/ui5-manifest"
+      },
+      {
+        "fileMatch": "*.vg",
+        "url": "http://json.schemastore.org/vega"
+      },
+      {
+        "fileMatch": "*.vg.json",
+        "url": "http://json.schemastore.org/vega"
+      },
+      {
+        "fileMatch": "*.vl",
+        "url": "http://json.schemastore.org/vega-lite"
+      },
+      {
+        "fileMatch": "*.vl.json",
+        "url": "http://json.schemastore.org/vega-lite"
+      },
+      {
+        "fileMatch": "version.json",
+        "url": "https://raw.githubusercontent.com/AArnott/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json"
+      },
+      {
+        "fileMatch": "vs-2017.3.host.json",
+        "url": "http://json.schemastore.org/vs-2017.3.host"
+      },
+      {
+        "fileMatch": "*.nesting.json",
+        "url": "http://json.schemastore.org/vs-nesting"
+      },
+      {
+        "fileMatch": "*.vsext",
+        "url": "http://json.schemastore.org/vsext"
+      },
+      {
+        "fileMatch": "manifest.json",
+        "url": "http://json.schemastore.org/web-manifest"
+      },
+      {
+        "fileMatch": "*.webmanifest",
+        "url": "http://json.schemastore.org/web-manifest"
+      },
+      {
+        "fileMatch": "webjobs-list.json",
+        "url": "http://json.schemastore.org/webjobs-list"
+      },
+      {
+        "fileMatch": "webjobpublishsettings.json",
+        "url": "http://json.schemastore.org/webjob-publish-settings"
+      },
+      {
+        "fileMatch": "*.ckan",
+        "url": "http://json.schemastore.org/ksp-ckan-1.16"
+      },
+      {
+        "fileMatch": "xunit.runner.json",
+        "url": "http://json.schemastore.org/xunit.runner.schema"
+      },
+      {
+        "fileMatch": "*.cryproj",
+        "url": "http://json.schemastore.org/cryproj"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./ && npm run lint",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "lint": "tslint -p ./ -c tslint.json",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "schema:update": "node scripts/update.js"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/fs-extra": "^5.0.1",
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^9.4.7",
+    "axios": "^0.18.0",
+    "conventional-changelog-cli": "^1.3.16",
+    "fs-extra": "^5.0.0",
+    "tslint": "^5.8.0",
+    "tslint-config-prettier": "^1.10.0",
+    "typescript": "^2.8.1",
+    "vscode": "^1.1.14"
+  },
+  "dependencies": {}
+}
