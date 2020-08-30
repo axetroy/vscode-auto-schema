@@ -2,7 +2,7 @@
   "name": "vscode-auto-schema",
   "displayName": "auto-schema",
   "description": "Support most of JSON Schemas you ever see",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "axetroy",
   "engines": {
     "vscode": "^1.21.0"
@@ -1912,7 +1912,9 @@
       }
     ]
   },
-  "extensionDependencies": ["redhat.vscode-yaml"],
+  "extensionDependencies": [
+    "redhat.vscode-yaml"
+  ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./ && npm run lint",
