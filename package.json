@@ -442,40 +442,6 @@
       },
       {
         "fileMatch": [
-          "**/tasks/*.yml",
-          "**/tasks/*.yaml"
-        ],
-        "url": "https://json.schemastore.org/ansible-role-2.9"
-      },
-      {
-        "fileMatch": [
-          "playbook.yml",
-          "playbook.yaml"
-        ],
-        "url": "https://json.schemastore.org/ansible-playbook"
-      },
-      {
-        "fileMatch": [
-          "inventory.yml",
-          "inventory.yaml"
-        ],
-        "url": "https://json.schemastore.org/ansible-inventory"
-      },
-      {
-        "fileMatch": [
-          "galaxy.yml",
-          "galaxy.yaml"
-        ],
-        "url": "https://json.schemastore.org/ansible-collection-galaxy"
-      },
-      {
-        "fileMatch": [
-          "apple-app-site-association"
-        ],
-        "url": "https://json.schemastore.org/apple-app-site-association"
-      },
-      {
-        "fileMatch": [
           "appsscript.json"
         ],
         "url": "https://json.schemastore.org/appsscript"
@@ -489,26 +455,9 @@
       },
       {
         "fileMatch": [
-          "appveyor.yml"
-        ],
-        "url": "https://json.schemastore.org/appveyor"
-      },
-      {
-        "fileMatch": [
-          "arc.json",
-          "arc.yml",
-          "arc.yaml"
+          "arc.json"
         ],
         "url": "https://raw.githubusercontent.com/architect/parser/master/schema.json"
-      },
-      {
-        "fileMatch": [
-          ".avsc"
-        ],
-        "url": "https://json.schemastore.org/avro-avsc"
-      },
-      {
-        "url": "https://json.schemastore.org/azure-iot-edge-deployment-2.0"
       },
       {
         "fileMatch": [
@@ -519,26 +468,12 @@
       },
       {
         "fileMatch": [
-          "azure-pipelines.yml",
-          "azure-pipelines.yaml"
-        ],
-        "url": "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json"
-      },
-      {
-        "fileMatch": [
           "manifest.json"
         ],
         "url": "https://json.schemastore.org/foxx-manifest"
       },
       {
         "fileMatch": [
-          "*.asmdef"
-        ],
-        "url": "https://json.schemastore.org/asmdef"
-      },
-      {
-        "fileMatch": [
-          ".babelrc",
           "babel.config.json"
         ],
         "url": "https://json.schemastore.org/babelrc"
@@ -551,50 +486,10 @@
       },
       {
         "fileMatch": [
-          "batect.yml",
-          "batect-bundle.yml"
-        ],
-        "url": "https://batect.dev/configSchema.json"
-      },
-      {
-        "fileMatch": [
-          "bamboo.yaml",
-          "bamboo.yml"
-        ],
-        "url": "https://json.schemastore.org/bamboo-spec"
-      },
-      {
-        "fileMatch": [
-          "bitbucket-pipelines.yml",
-          "bitbucket-pipelines.yaml"
-        ],
-        "url": "https://bitbucket.org/atlassianlabs/atlascode/raw/main/resources/schemas/pipelines-schema.json"
-      },
-      {
-        "fileMatch": [
-          ".bootstraprc"
-        ],
-        "url": "https://json.schemastore.org/bootstraprc"
-      },
-      {
-        "fileMatch": [
           "bower.json",
           ".bower.json"
         ],
         "url": "https://json.schemastore.org/bower"
-      },
-      {
-        "fileMatch": [
-          ".bowerrc"
-        ],
-        "url": "https://json.schemastore.org/bowerrc"
-      },
-      {
-        "fileMatch": [
-          "behat.yml",
-          "*.behat.yml"
-        ],
-        "url": "https://json.schemastore.org/behat"
       },
       {
         "fileMatch": [
@@ -611,32 +506,12 @@
       },
       {
         "fileMatch": [
-          "plugin.yml"
-        ],
-        "url": "https://json.schemastore.org/bukkit-plugin"
-      },
-      {
-        "fileMatch": [
-          "buildkite.yml",
-          "buildkite.yaml",
           "buildkite.json",
-          "buildkite.*.yml",
-          "buildkite.*.yaml",
           "buildkite.*.json",
-          ".buildkite/pipeline.yml",
-          ".buildkite/pipeline.yaml",
           ".buildkite/pipeline.json",
-          ".buildkite/pipeline.*.yml",
-          ".buildkite/pipeline.*.yaml",
           ".buildkite/pipeline.*.json"
         ],
         "url": "https://raw.githubusercontent.com/buildkite/pipeline-schema/master/schema.json"
-      },
-      {
-        "fileMatch": [
-          ".build.yml"
-        ],
-        "url": "https://json.schemastore.org/sourcehut-build"
       },
       {
         "fileMatch": [
@@ -646,53 +521,9 @@
       },
       {
         "fileMatch": [
-          "plugin.yml",
-          "bungee.yml"
-        ],
-        "url": "https://json.schemastore.org/bungee-plugin"
-      },
-      {
-        "fileMatch": [
-          "*.camelk.yaml"
-        ],
-        "url": "https://raw.githubusercontent.com/apache/camel-k-runtime/master/camel-k-loader-yaml/camel-k-loader-yaml/src/generated/resources/camel-yaml-dsl.json"
-      },
-      {
-        "url": "https://carafe.fm/schema/draft-02/bundle.schema.json"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/cityjson/specs/master/schemas/cityjson.min.schema.json"
-      },
-      {
-        "fileMatch": [
-          ".circleci/config.yml"
-        ],
-        "url": "https://json.schemastore.org/circleciconfig"
-      },
-      {
-        "fileMatch": [
-          ".cirrus.yml"
-        ],
-        "url": "https://json.schemastore.org/cirrus"
-      },
-      {
-        "fileMatch": [
           ".clasp.json"
         ],
         "url": "https://json.schemastore.org/clasp"
-      },
-      {
-        "fileMatch": [
-          "*.cfy.yaml"
-        ],
-        "url": "https://json.schemastore.org/cloudify"
-      },
-      {
-        "fileMatch": [
-          ".codecov.yml",
-          "codecov.yml"
-        ],
-        "url": "https://json.schemastore.org/codecov"
       },
       {
         "fileMatch": [
@@ -719,9 +550,6 @@
         "url": "https://json.schemastore.org/cosmos-config"
       },
       {
-        "url": "https://json.schemastore.org/chrome-manifest"
-      },
-      {
         "fileMatch": [
           "chutzpah.json"
         ],
@@ -735,40 +563,22 @@
       },
       {
         "fileMatch": [
-          "pipeline_config.yml"
-        ],
-        "url": "https://json.schemastore.org/cloud-sdk-pipeline-config-schema.json"
-      },
-      {
-        "fileMatch": [
           "cloudbuild.json",
-          "cloudbuild.yaml",
-          "cloudbuild.yml",
-          "*.cloudbuild.json",
-          "*.cloudbuild.yaml",
-          "*.cloudbuild.yml"
+          "*.cloudbuild.json"
         ],
         "url": "https://json.schemastore.org/cloudbuild"
       },
       {
         "fileMatch": [
           "*.cf.json",
-          "*.cf.yml",
-          "*.cf.yaml",
-          "cloudformation.json",
-          "cloudformation.yml",
-          "cloudformation.yaml"
+          "cloudformation.json"
         ],
         "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
       },
       {
         "fileMatch": [
           "*.sam.json",
-          "*.sam.yml",
-          "*.sam.yaml",
-          "sam.json",
-          "sam.yml",
-          "sam.yaml"
+          "sam.json"
         ],
         "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
       },
@@ -810,12 +620,6 @@
       },
       {
         "fileMatch": [
-          ".creatomic"
-        ],
-        "url": "https://json.schemastore.org/creatomic"
-      },
-      {
-        "fileMatch": [
           ".cspell.json",
           "cspell.json",
           "cSpell.json"
@@ -827,15 +631,6 @@
           ".csscomb.json"
         ],
         "url": "https://json.schemastore.org/csscomb"
-      },
-      {
-        "fileMatch": [
-          ".csslintrc"
-        ],
-        "url": "https://json.schemastore.org/csslintrc"
-      },
-      {
-        "url": "https://json.schemastore.org/dart-build"
       },
       {
         "fileMatch": [
@@ -854,18 +649,6 @@
           "debugsettings.json"
         ],
         "url": "https://json.schemastore.org/debugsettings"
-      },
-      {
-        "fileMatch": [
-          ".dependabot/config.yml"
-        ],
-        "url": "https://json.schemastore.org/dependabot"
-      },
-      {
-        "fileMatch": [
-          ".github/dependabot.yml"
-        ],
-        "url": "https://json.schemastore.org/dependabot-2.0"
       },
       {
         "fileMatch": [
@@ -929,37 +712,6 @@
       },
       {
         "fileMatch": [
-          ".drone.yml"
-        ],
-        "url": "https://json.schemastore.org/drone"
-      },
-      {
-        "fileMatch": [
-          "sites/*.site.yml"
-        ],
-        "url": "https://json.schemastore.org/drush.site.yml"
-      },
-      {
-        "url": "https://json.schemastore.org/dss-2.0.0.json"
-      },
-      {
-        "fileMatch": [
-          "dvc.yaml"
-        ],
-        "url": "https://raw.githubusercontent.com/iterative/dvcyaml-schema/master/schema.json"
-      },
-      {
-        "fileMatch": [
-          "devfile.yaml",
-          ".devfile.yaml"
-        ],
-        "url": "https://raw.githubusercontent.com/eclipse/che/master/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json"
-      },
-      {
-        "url": "https://json.schemastore.org/esquio"
-      },
-      {
-        "fileMatch": [
           "epr-manifest.json"
         ],
         "url": "https://json.schemastore.org/epr-manifest"
@@ -978,10 +730,7 @@
       },
       {
         "fileMatch": [
-          ".eslintrc",
-          ".eslintrc.json",
-          ".eslintrc.yml",
-          ".eslintrc.yaml"
+          ".eslintrc.json"
         ],
         "url": "https://json.schemastore.org/eslintrc"
       },
@@ -1004,39 +753,10 @@
         "url": "https://json.schemastore.org/function"
       },
       {
-        "url": "https://json.schemastore.org/geojson"
-      },
-      {
         "fileMatch": [
           "gitversion.json"
         ],
         "url": "https://json.schemastore.org/gitversion"
-      },
-      {
-        "fileMatch": [
-          "action.yml",
-          "action.yaml"
-        ],
-        "url": "https://json.schemastore.org/github-action"
-      },
-      {
-        "fileMatch": [
-          ".github/workflows/**.yml",
-          ".github/workflows/**.yaml"
-        ],
-        "url": "https://json.schemastore.org/github-workflow"
-      },
-      {
-        "fileMatch": [
-          ".gitlab-ci.yml"
-        ],
-        "url": "https://json.schemastore.org/gitlab-ci"
-      },
-      {
-        "fileMatch": [
-          ".gitpod.yml"
-        ],
-        "url": "https://gitpod.io/schemas/gitpod-schema.json"
       },
       {
         "fileMatch": [
@@ -1045,43 +765,22 @@
         "url": "https://json.schemastore.org/global"
       },
       {
-        "url": "https://json.schemastore.org/grafana-dashboard-5.x"
-      },
-      {
         "fileMatch": [
-          ".meshrc.yml",
-          ".meshrc.yaml",
-          ".meshrc.json",
-          ".meshrc.js",
-          ".graphql-mesh.yaml",
-          ".graphql-mesh.yml"
+          ".meshrc.json"
         ],
         "url": "https://raw.githubusercontent.com/Urigo/graphql-mesh/master/packages/types/src/config-schema.json"
       },
       {
         "fileMatch": [
           "graphql.config.json",
-          "graphql.config.js",
-          "graphql.config.yaml",
-          "graphql.config.yml",
-          ".graphqlrc",
-          ".graphqlrc.json",
-          ".graphqlrc.yaml",
-          ".graphqlrc.yml",
-          ".graphqlrc.js"
+          ".graphqlrc.json"
         ],
         "url": "https://raw.githubusercontent.com/kamilkisiela/graphql-config/master/config-schema.json"
       },
       {
         "fileMatch": [
-          "codegen.yml",
-          "codegen.yaml",
           "codegen.json",
-          "codegen.js",
-          ".codegen.yml",
-          ".codegen.yaml",
-          ".codegen.json",
-          ".codegen.js"
+          ".codegen.json"
         ],
         "url": "https://raw.githubusercontent.com/dotansimha/graphql-code-generator/master/website/static/config.schema.json"
       },
@@ -1142,16 +841,7 @@
       },
       {
         "fileMatch": [
-          ".htmlhintrc"
-        ],
-        "url": "https://json.schemastore.org/htmlhint"
-      },
-      {
-        "fileMatch": [
-          "hydra.json",
-          "hydra.yml",
-          "hydra.yaml",
-          "hydra.toml"
+          "hydra.json"
         ],
         "url": "https://raw.githubusercontent.com/ory/hydra/master/.schema/version.schema.json"
       },
@@ -1163,64 +853,15 @@
       },
       {
         "fileMatch": [
-          "_config.yml"
-        ],
-        "url": "https://json.schemastore.org/jekyll"
-      },
-      {
-        "fileMatch": [
-          "jenkins-x*.yml"
-        ],
-        "url": "https://jenkins-x.io/schemas/jx-schema.json"
-      },
-      {
-        "fileMatch": [
-          "jx-requirements.yml"
-        ],
-        "url": "https://jenkins-x.io/schemas/jx-requirements.json"
-      },
-      {
-        "url": "http://json.schemastore.org/jovo-language-model"
-      },
-      {
-        "fileMatch": [
-          ".jsbeautifyrc"
-        ],
-        "url": "https://json.schemastore.org/jsbeautifyrc"
-      },
-      {
-        "fileMatch": [
-          ".jsbeautifyrc"
-        ],
-        "url": "https://json.schemastore.org/jsbeautifyrc-nested"
-      },
-      {
-        "fileMatch": [
-          ".jscsrc",
           "jscsrc.json"
         ],
         "url": "https://json.schemastore.org/jscsrc"
       },
       {
         "fileMatch": [
-          ".jshintrc"
-        ],
-        "url": "https://json.schemastore.org/jshintrc"
-      },
-      {
-        "fileMatch": [
-          ".jsinspectrc"
-        ],
-        "url": "https://json.schemastore.org/jsinspectrc"
-      },
-      {
-        "fileMatch": [
           "*.schema.json"
         ],
         "url": "https://jsonapi.org/schema"
-      },
-      {
-        "url": "https://json.schemastore.org/jdt"
       },
       {
         "fileMatch": [
@@ -1230,37 +871,15 @@
       },
       {
         "fileMatch": [
-          "*.jsonld"
-        ],
-        "url": "https://json.schemastore.org/jsonld"
-      },
-      {
-        "fileMatch": [
-          "*.patch"
-        ],
-        "url": "https://json.schemastore.org/json-patch"
-      },
-      {
-        "fileMatch": [
           "jsconfig.json"
         ],
         "url": "https://json.schemastore.org/jsconfig"
       },
       {
         "fileMatch": [
-          "keto.json",
-          "keto.yml",
-          "keto.yaml",
-          "keto.toml"
+          "keto.json"
         ],
         "url": "https://raw.githubusercontent.com/ory/keto/master/.schema/version.schema.json"
-      },
-      {
-        "fileMatch": [
-          "kustomization.yaml",
-          "kustomization.yml"
-        ],
-        "url": "https://json.schemastore.org/kustomization"
       },
       {
         "fileMatch": [
@@ -1288,13 +907,9 @@
       },
       {
         "fileMatch": [
-          "*.lsdl.yaml",
           "*.lsdl.json"
         ],
         "url": "https://json.schemastore.org/lsdlschema"
-      },
-      {
-        "url": "https://json.schemastore.org/band-manifest"
       },
       {
         "fileMatch": [
@@ -1304,33 +919,15 @@
       },
       {
         "fileMatch": [
-          ".mocharc.json",
-          ".mocharc.jsonc",
-          ".mocharc.yml",
-          ".mocharc.yaml"
+          ".mocharc.json"
         ],
         "url": "https://json.schemastore.org/mocharc"
-      },
-      {
-        "fileMatch": [
-          ".modernizrrc"
-        ],
-        "url": "https://json.schemastore.org/modernizrrc"
       },
       {
         "fileMatch": [
           "mycode.json"
         ],
         "url": "https://json.schemastore.org/mycode"
-      },
-      {
-        "fileMatch": [
-          "admin/config*.yml"
-        ],
-        "url": "http://json.schemastore.org/netlify.json"
-      },
-      {
-        "url": "https://json.schemastore.org/ninjs-1.3.json"
       },
       {
         "fileMatch": [
@@ -1343,26 +940,16 @@
       },
       {
         "fileMatch": [
-          ".nodehawkrc"
-        ],
-        "url": "https://json.schemastore.org/nodehawkrc"
-      },
-      {
-        "fileMatch": [
           "nodemon.json"
         ],
         "url": "https://json.schemastore.org/nodemon"
       },
       {
         "fileMatch": [
-          ".npmpackagejsonlintrc",
           "npmpackagejsonlintrc.json",
           ".npmpackagejsonlintrc.json"
         ],
         "url": "https://json.schemastore.org/npmpackagejsonlintrc"
-      },
-      {
-        "url": "https://json.schemastore.org/nuget-project"
       },
       {
         "fileMatch": [
@@ -1372,10 +959,7 @@
       },
       {
         "fileMatch": [
-          "oathkeeper.json",
-          "oathkeeper.yml",
-          "oathkeeper.yaml",
-          "oathkeeper.toml"
+          "oathkeeper.json"
         ],
         "url": "https://raw.githubusercontent.com/ory/oathkeeper/master/.schema/version.schema.json"
       },
@@ -1393,20 +977,13 @@
       },
       {
         "fileMatch": [
-          "openapi.json",
-          "openapi.yml",
-          "openapi.yaml"
+          "openapi.json"
         ],
         "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/schemas/v3.0/schema.json"
       },
       {
-        "url": "https://json.schemastore.org/openfin"
-      },
-      {
         "fileMatch": [
-          "kratos.json",
-          "kratos.yml",
-          "kratos.yaml"
+          "kratos.json"
         ],
         "url": "https://raw.githubusercontent.com/ory/kratos/master/.schema/version.schema.json"
       },
@@ -1415,12 +992,6 @@
           "package.json"
         ],
         "url": "https://json.schemastore.org/package"
-      },
-      {
-        "fileMatch": [
-          "package.manifest"
-        ],
-        "url": "https://json.schemastore.org/package.manifest"
       },
       {
         "fileMatch": [
@@ -1436,82 +1007,15 @@
       },
       {
         "fileMatch": [
-          ".pmbot.yml"
-        ],
-        "url": "https://raw.githubusercontent.com/pmbot-io/config/master/pmbot.yml.schema.json"
-      },
-      {
-        "fileMatch": [
-          "plugin.yml"
-        ],
-        "url": "https://json.schemastore.org/pocketmine-plugin"
-      },
-      {
-        "fileMatch": [
-          ".pre-commit-config.yml",
-          ".pre-commit-config.yaml"
-        ],
-        "url": "https://json.schemastore.org/pre-commit-config"
-      },
-      {
-        "fileMatch": [
-          ".phraseapp.yml"
-        ],
-        "url": "https://json.schemastore.org/phraseapp"
-      },
-      {
-        "fileMatch": [
-          ".prettierrc",
-          ".prettierrc.json",
-          ".prettierrc.yml",
-          ".prettierrc.yaml"
+          ".prettierrc.json"
         ],
         "url": "https://json.schemastore.org/prettierrc"
-      },
-      {
-        "fileMatch": [
-          "prisma.yml"
-        ],
-        "url": "https://json.schemastore.org/prisma"
       },
       {
         "fileMatch": [
           "project.json"
         ],
         "url": "https://json.schemastore.org/project"
-      },
-      {
-        "url": "https://json.schemastore.org/project-1.0.0-beta3"
-      },
-      {
-        "url": "https://json.schemastore.org/project-1.0.0-beta4"
-      },
-      {
-        "url": "https://json.schemastore.org/project-1.0.0-beta5"
-      },
-      {
-        "url": "https://json.schemastore.org/project-1.0.0-beta6"
-      },
-      {
-        "url": "https://json.schemastore.org/project-1.0.0-beta8"
-      },
-      {
-        "url": "https://json.schemastore.org/project-1.0.0-rc1"
-      },
-      {
-        "url": "https://json.schemastore.org/project-1.0.0-rc2"
-      },
-      {
-        "fileMatch": [
-          "prometheus.yml"
-        ],
-        "url": "https://json.schemastore.org/prometheus"
-      },
-      {
-        "fileMatch": [
-          "*.rules"
-        ],
-        "url": "https://json.schemastore.org/prometheus.rules"
       },
       {
         "fileMatch": [
@@ -1521,21 +1025,9 @@
       },
       {
         "fileMatch": [
-          "pubspec.yaml"
-        ],
-        "url": "https://json.schemastore.org/pubspec"
-      },
-      {
-        "fileMatch": [
           "pyrseas-0.8.json"
         ],
         "url": "https://json.schemastore.org/pyrseas-0.8"
-      },
-      {
-        "fileMatch": [
-          "*.resjson"
-        ],
-        "url": "https://json.schemastore.org/resjson"
       },
       {
         "fileMatch": [
@@ -1546,74 +1038,10 @@
       {
         "fileMatch": [
           "renovate.json",
-          "renovate.json5",
           ".github/renovate.json",
-          ".github/renovate.json5",
-          ".renovaterc",
           ".renovaterc.json"
         ],
         "url": "https://docs.renovatebot.com/renovate-schema.json"
-      },
-      {
-        "fileMatch": [
-          ".rr.yml",
-          ".rr.yaml"
-        ],
-        "url": "https://json.schemastore.org/roadrunner"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-1.0.0.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-2.0.0.json"
-      },
-      {
-        "url": "https://json.schemastore.org/2.0.0-csd.2.beta.2018-10-10.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-2.1.0-rtm.2.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-external-property-file-2.1.0-rtm.2.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-2.1.0-rtm.3.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-external-property-file-2.1.0-rtm.3.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-2.1.0-rtm.4.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-external-property-file-2.1.0-rtm.4.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-2.1.0-rtm.5.json"
-      },
-      {
-        "url": "https://json.schemastore.org/sarif-external-property-file-2.1.0-rtm.5.json"
-      },
-      {
-        "url": "https://json.schemastore.org/schema-catalog"
-      },
-      {
-        "url": "https://json.schemastore.org/schema-org-action"
-      },
-      {
-        "url": "https://json.schemastore.org/schema-org-contact-point"
-      },
-      {
-        "url": "https://json.schemastore.org/schema-org-place"
-      },
-      {
-        "url": "https://json.schemastore.org/schema-org-thing"
-      },
-      {
-        "fileMatch": [
-          "settings.job"
-        ],
-        "url": "https://json.schemastore.org/settings.job"
       },
       {
         "fileMatch": [
@@ -1624,35 +1052,15 @@
       },
       {
         "fileMatch": [
-          ".snapcraft.yaml",
-          "snapcraft.yaml"
-        ],
-        "url": "https://raw.githubusercontent.com/snapcore/snapcraft/master/schema/snapcraft.json"
-      },
-      {
-        "fileMatch": [
-          ".solidarity",
           ".solidarity.json"
         ],
         "url": "https://json.schemastore.org/solidaritySchema"
       },
       {
         "fileMatch": [
-          "*.map"
-        ],
-        "url": "https://json.schemastore.org/sourcemap-v3"
-      },
-      {
-        "fileMatch": [
           "*.mixins.json"
         ],
         "url": "https://json.schemastore.org/sponge-mixins"
-      },
-      {
-        "fileMatch": [
-          "*.sprite"
-        ],
-        "url": "https://json.schemastore.org/sprite"
       },
       {
         "fileMatch": [
@@ -1669,7 +1077,6 @@
       },
       {
         "fileMatch": [
-          ".stylelintrc",
           "stylelintrc.json",
           ".stylelintrc.json"
         ],
@@ -1680,15 +1087,6 @@
           "swagger.json"
         ],
         "url": "https://json.schemastore.org/swagger-2.0"
-      },
-      {
-        "fileMatch": [
-          "bzt.yml",
-          "bzt.yaml",
-          "taurus.yml",
-          "taurus.yaml"
-        ],
-        "url": "https://json.schemastore.org/taurus"
       },
       {
         "fileMatch": [
@@ -1710,19 +1108,6 @@
       },
       {
         "fileMatch": [
-          ".travis.yml"
-        ],
-        "url": "https://json.schemastore.org/travis"
-      },
-      {
-        "fileMatch": [
-          "traefik.yml",
-          "traefik.yaml"
-        ],
-        "url": "https://json.schemastore.org/traefik-v2"
-      },
-      {
-        "fileMatch": [
           "tsconfig.json"
         ],
         "url": "https://json.schemastore.org/tsconfig"
@@ -1735,21 +1120,13 @@
       },
       {
         "fileMatch": [
-          ".tsdrc"
-        ],
-        "url": "https://json.schemastore.org/tsdrc"
-      },
-      {
-        "fileMatch": [
           "ts-force-config.json"
         ],
         "url": "https://json.schemastore.org/ts-force-config"
       },
       {
         "fileMatch": [
-          "tslint.json",
-          "tslint.yaml",
-          "tslint.yml"
+          "tslint.json"
         ],
         "url": "https://json.schemastore.org/tslint"
       },
@@ -1767,21 +1144,9 @@
       },
       {
         "fileMatch": [
-          ".typingsrc"
-        ],
-        "url": "https://json.schemastore.org/typingsrc"
-      },
-      {
-        "fileMatch": [
           "up.json"
         ],
         "url": "https://json.schemastore.org/up.json"
-      },
-      {
-        "fileMatch": [
-          ".manifest"
-        ],
-        "url": "https://json.schemastore.org/ui5-manifest"
       },
       {
         "fileMatch": [
@@ -1792,32 +1157,15 @@
       },
       {
         "fileMatch": [
-          "ui5.yaml",
-          "*-ui5.yaml",
-          "*.ui5.yaml"
-        ],
-        "url": "https://sap.github.io/ui5-tooling/schema/ui5.yaml.json"
-      },
-      {
-        "fileMatch": [
-          "*.vg",
           "*.vg.json"
         ],
         "url": "https://json.schemastore.org/vega"
       },
       {
         "fileMatch": [
-          "*.vl",
           "*.vl.json"
         ],
         "url": "https://json.schemastore.org/vega-lite"
-      },
-      {
-        "fileMatch": [
-          ".vela.yml",
-          ".vela.yaml"
-        ],
-        "url": "https://github.com/go-vela/types/releases/latest/download/schema.json"
       },
       {
         "fileMatch": [
@@ -1852,18 +1200,6 @@
       },
       {
         "fileMatch": [
-          "*.vsconfig"
-        ],
-        "url": "https://json.schemastore.org/vsconfig"
-      },
-      {
-        "fileMatch": [
-          "*.vsext"
-        ],
-        "url": "https://json.schemastore.org/vsext"
-      },
-      {
-        "fileMatch": [
           "vs-publish.json"
         ],
         "url": "https://json.schemastore.org/vsix-publish"
@@ -1882,8 +1218,7 @@
       },
       {
         "fileMatch": [
-          "manifest.json",
-          "*.webmanifest"
+          "manifest.json"
         ],
         "url": "https://json.schemastore.org/web-manifest-combined"
       },
@@ -1907,30 +1242,6 @@
         "url": "https://json.schemastore.org/web-types"
       },
       {
-        "url": "https://json-stat.org/format/schema/2.0/"
-      },
-      {
-        "fileMatch": [
-          "*.version"
-        ],
-        "url": "https://raw.githubusercontent.com/linuxgurugamer/KSPAddonVersionChecker/master/KSP-AVC.schema.json"
-      },
-      {
-        "fileMatch": [
-          "*.ckan"
-        ],
-        "url": "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema"
-      },
-      {
-        "url": "https://json-schema.org/draft-04/schema"
-      },
-      {
-        "url": "https://json-schema.org/draft-07/schema"
-      },
-      {
-        "url": "https://json-schema.org/draft/2019-09/schema"
-      },
-      {
         "fileMatch": [
           "xunit.runner.json"
         ],
@@ -1950,59 +1261,540 @@
       },
       {
         "fileMatch": [
-          "*.cryproj"
-        ],
-        "url": "https://json.schemastore.org/cryproj.52.schema"
-      },
-      {
-        "fileMatch": [
-          "*.cryproj"
-        ],
-        "url": "https://json.schemastore.org/cryproj.53.schema"
-      },
-      {
-        "fileMatch": [
-          "*.cryproj"
-        ],
-        "url": "https://json.schemastore.org/cryproj.54.schema"
-      },
-      {
-        "fileMatch": [
-          "*.cryproj"
-        ],
-        "url": "https://json.schemastore.org/cryproj.55.schema"
-      },
-      {
-        "fileMatch": [
-          "*.cryproj"
-        ],
-        "url": "https://json.schemastore.org/cryproj.dev.schema"
-      },
-      {
-        "fileMatch": [
-          "*.cryproj"
-        ],
-        "url": "https://json.schemastore.org/cryproj"
-      },
-      {
-        "fileMatch": [
           "typedoc.json"
         ],
         "url": "https://json.schemastore.org/typedoc"
       },
       {
         "fileMatch": [
-          ".huskyrc",
           ".huskyrc.json"
         ],
         "url": "https://json.schemastore.org/huskyrc"
       },
       {
         "fileMatch": [
-          ".lintstagedrc",
           ".lintstagedrc.json"
         ],
         "url": "https://json.schemastore.org/lintstagedrc.schema"
+      },
+      {
+        "fileMatch": [
+          "xs-app.json"
+        ],
+        "url": "https://json.schemastore.org/xs-app.json"
+      },
+      {
+        "fileMatch": [
+          "hemtt.json"
+        ],
+        "url": "https://json.schemastore.org/hemtt-0.6.2"
+      },
+      {
+        "fileMatch": [
+          "now.json"
+        ],
+        "url": "https://json.schemastore.org/now"
+      },
+      {
+        "fileMatch": [
+          "BizTalkServerInventory.json"
+        ],
+        "url": "https://json.schemastore.org/BizTalkServerApplicationSchema"
+      },
+      {
+        "fileMatch": [
+          ".httpmock.json"
+        ],
+        "url": "https://json.schemastore.org/httpmockrc"
+      },
+      {
+        "fileMatch": [
+          ".nl.json",
+          ".neoload.json"
+        ],
+        "url": "https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/master/resources/as-code.latest.schema.json"
+      },
+      {
+        "fileMatch": [
+          ".commitlintrc.json"
+        ],
+        "url": "https://json.schemastore.org/commitlintrc"
+      },
+      {
+        "fileMatch": [
+          "*.tokenlist.json"
+        ],
+        "url": "https://uniswap.org/tokenlist.schema.json"
+      },
+      {
+        "fileMatch": [
+          "**/*devinit*.json"
+        ],
+        "url": "https://json.schemastore.org/devinit.schema-1.0"
+      },
+      {
+        "fileMatch": [
+          "**/tsoa.json"
+        ],
+        "url": "https://json.schemastore.org/tsoa"
+      }
+    ],
+    "yamlValidation": [
+      {
+        "fileMatch": [
+          "**/tasks/*.yml",
+          "**/tasks/*.yaml"
+        ],
+        "url": "https://json.schemastore.org/ansible-role-2.9"
+      },
+      {
+        "fileMatch": [
+          "playbook.yml",
+          "playbook.yaml"
+        ],
+        "url": "https://json.schemastore.org/ansible-playbook"
+      },
+      {
+        "fileMatch": [
+          "inventory.yml",
+          "inventory.yaml"
+        ],
+        "url": "https://json.schemastore.org/ansible-inventory"
+      },
+      {
+        "fileMatch": [
+          "galaxy.yml",
+          "galaxy.yaml"
+        ],
+        "url": "https://json.schemastore.org/ansible-collection-galaxy"
+      },
+      {
+        "fileMatch": [
+          "appveyor.yml"
+        ],
+        "url": "https://json.schemastore.org/appveyor"
+      },
+      {
+        "fileMatch": [
+          "arc.yml",
+          "arc.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/architect/parser/master/schema.json"
+      },
+      {
+        "fileMatch": [
+          "azure-pipelines.yml",
+          "azure-pipelines.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json"
+      },
+      {
+        "fileMatch": [
+          "batect.yml",
+          "batect-bundle.yml"
+        ],
+        "url": "https://batect.dev/configSchema.json"
+      },
+      {
+        "fileMatch": [
+          "bamboo.yaml",
+          "bamboo.yml"
+        ],
+        "url": "https://json.schemastore.org/bamboo-spec"
+      },
+      {
+        "fileMatch": [
+          "bitbucket-pipelines.yml",
+          "bitbucket-pipelines.yaml"
+        ],
+        "url": "https://bitbucket.org/atlassianlabs/atlascode/raw/main/resources/schemas/pipelines-schema.json"
+      },
+      {
+        "fileMatch": [
+          "behat.yml",
+          "*.behat.yml"
+        ],
+        "url": "https://json.schemastore.org/behat"
+      },
+      {
+        "fileMatch": [
+          "plugin.yml"
+        ],
+        "url": "https://json.schemastore.org/bukkit-plugin"
+      },
+      {
+        "fileMatch": [
+          "buildkite.yml",
+          "buildkite.yaml",
+          "buildkite.*.yml",
+          "buildkite.*.yaml",
+          ".buildkite/pipeline.yml",
+          ".buildkite/pipeline.yaml",
+          ".buildkite/pipeline.*.yml",
+          ".buildkite/pipeline.*.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/buildkite/pipeline-schema/master/schema.json"
+      },
+      {
+        "fileMatch": [
+          ".build.yml"
+        ],
+        "url": "https://json.schemastore.org/sourcehut-build"
+      },
+      {
+        "fileMatch": [
+          "plugin.yml",
+          "bungee.yml"
+        ],
+        "url": "https://json.schemastore.org/bungee-plugin"
+      },
+      {
+        "fileMatch": [
+          "*.camelk.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/apache/camel-k-runtime/master/camel-k-loader-yaml/camel-k-loader-yaml/src/generated/resources/camel-yaml-dsl.json"
+      },
+      {
+        "fileMatch": [
+          ".circleci/config.yml"
+        ],
+        "url": "https://json.schemastore.org/circleciconfig"
+      },
+      {
+        "fileMatch": [
+          ".cirrus.yml"
+        ],
+        "url": "https://json.schemastore.org/cirrus"
+      },
+      {
+        "fileMatch": [
+          "*.cfy.yaml"
+        ],
+        "url": "https://json.schemastore.org/cloudify"
+      },
+      {
+        "fileMatch": [
+          ".codecov.yml",
+          "codecov.yml"
+        ],
+        "url": "https://json.schemastore.org/codecov"
+      },
+      {
+        "fileMatch": [
+          "pipeline_config.yml"
+        ],
+        "url": "https://json.schemastore.org/cloud-sdk-pipeline-config-schema.json"
+      },
+      {
+        "fileMatch": [
+          "cloudbuild.yaml",
+          "cloudbuild.yml",
+          "*.cloudbuild.yaml",
+          "*.cloudbuild.yml"
+        ],
+        "url": "https://json.schemastore.org/cloudbuild"
+      },
+      {
+        "fileMatch": [
+          "*.cf.yml",
+          "*.cf.yaml",
+          "cloudformation.yml",
+          "cloudformation.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
+      },
+      {
+        "fileMatch": [
+          "*.sam.yml",
+          "*.sam.yaml",
+          "sam.yml",
+          "sam.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
+      },
+      {
+        "fileMatch": [
+          ".dependabot/config.yml"
+        ],
+        "url": "https://json.schemastore.org/dependabot"
+      },
+      {
+        "fileMatch": [
+          ".github/dependabot.yml"
+        ],
+        "url": "https://json.schemastore.org/dependabot-2.0"
+      },
+      {
+        "fileMatch": [
+          ".drone.yml"
+        ],
+        "url": "https://json.schemastore.org/drone"
+      },
+      {
+        "fileMatch": [
+          "sites/*.site.yml"
+        ],
+        "url": "https://json.schemastore.org/drush.site.yml"
+      },
+      {
+        "fileMatch": [
+          "dvc.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/iterative/dvcyaml-schema/master/schema.json"
+      },
+      {
+        "fileMatch": [
+          "devfile.yaml",
+          ".devfile.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/eclipse/che/master/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json"
+      },
+      {
+        "fileMatch": [
+          ".eslintrc.yml",
+          ".eslintrc.yaml"
+        ],
+        "url": "https://json.schemastore.org/eslintrc"
+      },
+      {
+        "fileMatch": [
+          "action.yml",
+          "action.yaml"
+        ],
+        "url": "https://json.schemastore.org/github-action"
+      },
+      {
+        "fileMatch": [
+          ".github/workflows/**.yml",
+          ".github/workflows/**.yaml"
+        ],
+        "url": "https://json.schemastore.org/github-workflow"
+      },
+      {
+        "fileMatch": [
+          ".gitlab-ci.yml"
+        ],
+        "url": "https://json.schemastore.org/gitlab-ci"
+      },
+      {
+        "fileMatch": [
+          ".gitpod.yml"
+        ],
+        "url": "https://gitpod.io/schemas/gitpod-schema.json"
+      },
+      {
+        "fileMatch": [
+          ".meshrc.yml",
+          ".meshrc.yaml",
+          ".graphql-mesh.yaml",
+          ".graphql-mesh.yml"
+        ],
+        "url": "https://raw.githubusercontent.com/Urigo/graphql-mesh/master/packages/types/src/config-schema.json"
+      },
+      {
+        "fileMatch": [
+          "graphql.config.yaml",
+          "graphql.config.yml",
+          ".graphqlrc.yaml",
+          ".graphqlrc.yml"
+        ],
+        "url": "https://raw.githubusercontent.com/kamilkisiela/graphql-config/master/config-schema.json"
+      },
+      {
+        "fileMatch": [
+          "codegen.yml",
+          "codegen.yaml",
+          ".codegen.yml",
+          ".codegen.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/dotansimha/graphql-code-generator/master/website/static/config.schema.json"
+      },
+      {
+        "fileMatch": [
+          "hydra.yml",
+          "hydra.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/ory/hydra/master/.schema/version.schema.json"
+      },
+      {
+        "fileMatch": [
+          "_config.yml"
+        ],
+        "url": "https://json.schemastore.org/jekyll"
+      },
+      {
+        "fileMatch": [
+          "jenkins-x*.yml"
+        ],
+        "url": "https://jenkins-x.io/schemas/jx-schema.json"
+      },
+      {
+        "fileMatch": [
+          "jx-requirements.yml"
+        ],
+        "url": "https://jenkins-x.io/schemas/jx-requirements.json"
+      },
+      {
+        "fileMatch": [
+          "keto.yml",
+          "keto.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/ory/keto/master/.schema/version.schema.json"
+      },
+      {
+        "fileMatch": [
+          "kustomization.yaml",
+          "kustomization.yml"
+        ],
+        "url": "https://json.schemastore.org/kustomization"
+      },
+      {
+        "fileMatch": [
+          "*.lsdl.yaml"
+        ],
+        "url": "https://json.schemastore.org/lsdlschema"
+      },
+      {
+        "fileMatch": [
+          ".mocharc.yml",
+          ".mocharc.yaml"
+        ],
+        "url": "https://json.schemastore.org/mocharc"
+      },
+      {
+        "fileMatch": [
+          "admin/config*.yml"
+        ],
+        "url": "http://json.schemastore.org/netlify.json"
+      },
+      {
+        "fileMatch": [
+          "oathkeeper.yml",
+          "oathkeeper.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/ory/oathkeeper/master/.schema/version.schema.json"
+      },
+      {
+        "fileMatch": [
+          "openapi.yml",
+          "openapi.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/schemas/v3.0/schema.json"
+      },
+      {
+        "fileMatch": [
+          "kratos.yml",
+          "kratos.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/ory/kratos/master/.schema/version.schema.json"
+      },
+      {
+        "fileMatch": [
+          ".pmbot.yml"
+        ],
+        "url": "https://raw.githubusercontent.com/pmbot-io/config/master/pmbot.yml.schema.json"
+      },
+      {
+        "fileMatch": [
+          "plugin.yml"
+        ],
+        "url": "https://json.schemastore.org/pocketmine-plugin"
+      },
+      {
+        "fileMatch": [
+          ".pre-commit-config.yml",
+          ".pre-commit-config.yaml"
+        ],
+        "url": "https://json.schemastore.org/pre-commit-config"
+      },
+      {
+        "fileMatch": [
+          ".phraseapp.yml"
+        ],
+        "url": "https://json.schemastore.org/phraseapp"
+      },
+      {
+        "fileMatch": [
+          ".prettierrc.yml",
+          ".prettierrc.yaml"
+        ],
+        "url": "https://json.schemastore.org/prettierrc"
+      },
+      {
+        "fileMatch": [
+          "prisma.yml"
+        ],
+        "url": "https://json.schemastore.org/prisma"
+      },
+      {
+        "fileMatch": [
+          "prometheus.yml"
+        ],
+        "url": "https://json.schemastore.org/prometheus"
+      },
+      {
+        "fileMatch": [
+          "pubspec.yaml"
+        ],
+        "url": "https://json.schemastore.org/pubspec"
+      },
+      {
+        "fileMatch": [
+          ".rr.yml",
+          ".rr.yaml"
+        ],
+        "url": "https://json.schemastore.org/roadrunner"
+      },
+      {
+        "fileMatch": [
+          ".snapcraft.yaml",
+          "snapcraft.yaml"
+        ],
+        "url": "https://raw.githubusercontent.com/snapcore/snapcraft/master/schema/snapcraft.json"
+      },
+      {
+        "fileMatch": [
+          "bzt.yml",
+          "bzt.yaml",
+          "taurus.yml",
+          "taurus.yaml"
+        ],
+        "url": "https://json.schemastore.org/taurus"
+      },
+      {
+        "fileMatch": [
+          ".travis.yml"
+        ],
+        "url": "https://json.schemastore.org/travis"
+      },
+      {
+        "fileMatch": [
+          "traefik.yml",
+          "traefik.yaml"
+        ],
+        "url": "https://json.schemastore.org/traefik-v2"
+      },
+      {
+        "fileMatch": [
+          "tslint.yaml",
+          "tslint.yml"
+        ],
+        "url": "https://json.schemastore.org/tslint"
+      },
+      {
+        "fileMatch": [
+          "ui5.yaml",
+          "*-ui5.yaml",
+          "*.ui5.yaml"
+        ],
+        "url": "https://sap.github.io/ui5-tooling/schema/ui5.yaml.json"
+      },
+      {
+        "fileMatch": [
+          ".vela.yml",
+          ".vela.yaml"
+        ],
+        "url": "https://github.com/go-vela/types/releases/latest/download/schema.json"
       },
       {
         "fileMatch": [
@@ -2020,35 +1812,10 @@
       },
       {
         "fileMatch": [
-          "*.mtaext"
-        ],
-        "url": "https://json.schemastore.org/mtaext"
-      },
-      {
-        "fileMatch": [
-          "xs-app.json"
-        ],
-        "url": "https://json.schemastore.org/xs-app.json"
-      },
-      {
-        "fileMatch": [
           ".opspec/*/*.yml",
           ".opspec/*/*.yaml"
         ],
         "url": "https://json.schemastore.org/opspec-io-0.1.7"
-      },
-      {
-        "fileMatch": [
-          "hemtt.json",
-          "hemtt.toml"
-        ],
-        "url": "https://json.schemastore.org/hemtt-0.6.2"
-      },
-      {
-        "fileMatch": [
-          "now.json"
-        ],
-        "url": "https://json.schemastore.org/now"
       },
       {
         "fileMatch": [
@@ -2058,25 +1825,10 @@
       },
       {
         "fileMatch": [
-          "BizTalkServerInventory.json"
-        ],
-        "url": "https://json.schemastore.org/BizTalkServerApplicationSchema"
-      },
-      {
-        "fileMatch": [
-          ".httpmockrc",
-          ".httpmock.json"
-        ],
-        "url": "https://json.schemastore.org/httpmockrc"
-      },
-      {
-        "fileMatch": [
           ".nl.yaml",
           ".nl.yml",
-          ".nl.json",
           ".neoload.yaml",
-          ".neoload.yml",
-          ".neoload.json"
+          ".neoload.yml"
         ],
         "url": "https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/master/resources/as-code.latest.schema.json"
       },
@@ -2098,19 +1850,6 @@
           "briefcase.yaml"
         ],
         "url": "https://raw.githubusercontent.com/microsoft/Briefcase/master/mlbriefcase/briefcase-schema.json"
-      },
-      {
-        "fileMatch": [
-          "*.har"
-        ],
-        "url": "https://raw.githubusercontent.com/ahmadnassri/har-schema/master/lib/har.json"
-      },
-      {
-        "fileMatch": [
-          "conf.js*",
-          "jsdoc.js*"
-        ],
-        "url": "https://json.schemastore.org/jsdoc-1.0.0"
       },
       {
         "fileMatch": [
@@ -2153,19 +1892,6 @@
       },
       {
         "fileMatch": [
-          ".commitlintrc",
-          ".commitlintrc.json"
-        ],
-        "url": "https://json.schemastore.org/commitlintrc"
-      },
-      {
-        "fileMatch": [
-          "*.tokenlist.json"
-        ],
-        "url": "https://uniswap.org/tokenlist.schema.json"
-      },
-      {
-        "fileMatch": [
           "**/yippee-*.yml",
           "**/*.yippee.yml"
         ],
@@ -2183,21 +1909,10 @@
           "**/compose.*.yaml"
         ],
         "url": "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"
-      },
-      {
-        "fileMatch": [
-          "**/*devinit*.json"
-        ],
-        "url": "https://json.schemastore.org/devinit.schema-1.0"
-      },
-      {
-        "fileMatch": [
-          "**/tsoa.json"
-        ],
-        "url": "https://json.schemastore.org/tsoa"
       }
     ]
   },
+  "extensionDependencies": ["redhat.vscode-yaml"],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./ && npm run lint",
