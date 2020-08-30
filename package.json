@@ -1,6 +1,6 @@
 {
   "name": "vscode-auto-schema",
-  "displayName": "auto-schema",
+  "displayName": "Auto Schema",
   "description": "Support most of JSON/YAML Schemas you ever see",
   "version": "0.2.1",
   "publisher": "axetroy",
