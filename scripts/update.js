@@ -1,5 +1,6 @@
 const axios = require("axios");
 const fs = require("fs-extra");
+const path = require("path");
 
 (async () => {
   const res = await axios.get("http://schemastore.org/api/json/catalog.json");
@@ -14,8 +15,11 @@ const fs = require("fs-extra");
     if (!schema.fileMatch) {
       continue;
     }
+
     const yamlMatch = schema.fileMatch.filter((v) => /\.ya?ml$/.test(v));
-    const jsonMatch = schema.fileMatch.filter((v) => /\.json$/.test(v));
+    const jsonMatch = schema.fileMatch.filter(
+      (v) => /\.json$/.test(v) || path.extname(v) === ""
+    );
 
     if (yamlMatch.length) {
       yamlValidation.push({

@@ -442,6 +442,12 @@
       },
       {
         "fileMatch": [
+          "apple-app-site-association"
+        ],
+        "url": "https://json.schemastore.org/apple-app-site-association"
+      },
+      {
+        "fileMatch": [
           "appsscript.json"
         ],
         "url": "https://json.schemastore.org/appsscript"
@@ -461,6 +467,12 @@
       },
       {
         "fileMatch": [
+          ".avsc"
+        ],
+        "url": "https://json.schemastore.org/avro-avsc"
+      },
+      {
+        "fileMatch": [
           "deployment.template.json",
           "deployment.*.template.json"
         ],
@@ -474,6 +486,7 @@
       },
       {
         "fileMatch": [
+          ".babelrc",
           "babel.config.json"
         ],
         "url": "https://json.schemastore.org/babelrc"
@@ -486,10 +499,22 @@
       },
       {
         "fileMatch": [
+          ".bootstraprc"
+        ],
+        "url": "https://json.schemastore.org/bootstraprc"
+      },
+      {
+        "fileMatch": [
           "bower.json",
           ".bower.json"
         ],
         "url": "https://json.schemastore.org/bower"
+      },
+      {
+        "fileMatch": [
+          ".bowerrc"
+        ],
+        "url": "https://json.schemastore.org/bowerrc"
       },
       {
         "fileMatch": [
@@ -620,6 +645,12 @@
       },
       {
         "fileMatch": [
+          ".creatomic"
+        ],
+        "url": "https://json.schemastore.org/creatomic"
+      },
+      {
+        "fileMatch": [
           ".cspell.json",
           "cspell.json",
           "cSpell.json"
@@ -631,6 +662,12 @@
           ".csscomb.json"
         ],
         "url": "https://json.schemastore.org/csscomb"
+      },
+      {
+        "fileMatch": [
+          ".csslintrc"
+        ],
+        "url": "https://json.schemastore.org/csslintrc"
       },
       {
         "fileMatch": [
@@ -730,6 +767,7 @@
       },
       {
         "fileMatch": [
+          ".eslintrc",
           ".eslintrc.json"
         ],
         "url": "https://json.schemastore.org/eslintrc"
@@ -773,6 +811,7 @@
       {
         "fileMatch": [
           "graphql.config.json",
+          ".graphqlrc",
           ".graphqlrc.json"
         ],
         "url": "https://raw.githubusercontent.com/kamilkisiela/graphql-config/master/config-schema.json"
@@ -841,6 +880,12 @@
       },
       {
         "fileMatch": [
+          ".htmlhintrc"
+        ],
+        "url": "https://json.schemastore.org/htmlhint"
+      },
+      {
+        "fileMatch": [
           "hydra.json"
         ],
         "url": "https://raw.githubusercontent.com/ory/hydra/master/.schema/version.schema.json"
@@ -853,9 +898,34 @@
       },
       {
         "fileMatch": [
+          ".jsbeautifyrc"
+        ],
+        "url": "https://json.schemastore.org/jsbeautifyrc"
+      },
+      {
+        "fileMatch": [
+          ".jsbeautifyrc"
+        ],
+        "url": "https://json.schemastore.org/jsbeautifyrc-nested"
+      },
+      {
+        "fileMatch": [
+          ".jscsrc",
           "jscsrc.json"
         ],
         "url": "https://json.schemastore.org/jscsrc"
+      },
+      {
+        "fileMatch": [
+          ".jshintrc"
+        ],
+        "url": "https://json.schemastore.org/jshintrc"
+      },
+      {
+        "fileMatch": [
+          ".jsinspectrc"
+        ],
+        "url": "https://json.schemastore.org/jsinspectrc"
       },
       {
         "fileMatch": [
@@ -925,6 +995,12 @@
       },
       {
         "fileMatch": [
+          ".modernizrrc"
+        ],
+        "url": "https://json.schemastore.org/modernizrrc"
+      },
+      {
+        "fileMatch": [
           "mycode.json"
         ],
         "url": "https://json.schemastore.org/mycode"
@@ -940,12 +1016,19 @@
       },
       {
         "fileMatch": [
+          ".nodehawkrc"
+        ],
+        "url": "https://json.schemastore.org/nodehawkrc"
+      },
+      {
+        "fileMatch": [
           "nodemon.json"
         ],
         "url": "https://json.schemastore.org/nodemon"
       },
       {
         "fileMatch": [
+          ".npmpackagejsonlintrc",
           "npmpackagejsonlintrc.json",
           ".npmpackagejsonlintrc.json"
         ],
@@ -1007,6 +1090,7 @@
       },
       {
         "fileMatch": [
+          ".prettierrc",
           ".prettierrc.json"
         ],
         "url": "https://json.schemastore.org/prettierrc"
@@ -1039,6 +1123,7 @@
         "fileMatch": [
           "renovate.json",
           ".github/renovate.json",
+          ".renovaterc",
           ".renovaterc.json"
         ],
         "url": "https://docs.renovatebot.com/renovate-schema.json"
@@ -1052,6 +1137,7 @@
       },
       {
         "fileMatch": [
+          ".solidarity",
           ".solidarity.json"
         ],
         "url": "https://json.schemastore.org/solidaritySchema"
@@ -1077,6 +1163,7 @@
       },
       {
         "fileMatch": [
+          ".stylelintrc",
           "stylelintrc.json",
           ".stylelintrc.json"
         ],
@@ -1120,6 +1207,12 @@
       },
       {
         "fileMatch": [
+          ".tsdrc"
+        ],
+        "url": "https://json.schemastore.org/tsdrc"
+      },
+      {
+        "fileMatch": [
           "ts-force-config.json"
         ],
         "url": "https://json.schemastore.org/ts-force-config"
@@ -1144,9 +1237,21 @@
       },
       {
         "fileMatch": [
+          ".typingsrc"
+        ],
+        "url": "https://json.schemastore.org/typingsrc"
+      },
+      {
+        "fileMatch": [
           "up.json"
         ],
         "url": "https://json.schemastore.org/up.json"
+      },
+      {
+        "fileMatch": [
+          ".manifest"
+        ],
+        "url": "https://json.schemastore.org/ui5-manifest"
       },
       {
         "fileMatch": [
@@ -1267,12 +1372,14 @@
       },
       {
         "fileMatch": [
+          ".huskyrc",
           ".huskyrc.json"
         ],
         "url": "https://json.schemastore.org/huskyrc"
       },
       {
         "fileMatch": [
+          ".lintstagedrc",
           ".lintstagedrc.json"
         ],
         "url": "https://json.schemastore.org/lintstagedrc.schema"
@@ -1303,6 +1410,7 @@
       },
       {
         "fileMatch": [
+          ".httpmockrc",
           ".httpmock.json"
         ],
         "url": "https://json.schemastore.org/httpmockrc"
@@ -1316,6 +1424,7 @@
       },
       {
         "fileMatch": [
+          ".commitlintrc",
           ".commitlintrc.json"
         ],
         "url": "https://json.schemastore.org/commitlintrc"
